@@ -1,0 +1,117 @@
+/* Style for Postyta Recent widget */
+.widget_postyta_recent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget_postyta_recent ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.widget_postyta_recent ul li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--ast-border-color);
+    padding: 5px;
+}
+
+/* Desktop Columns */
+.widget_postyta_recent.columns-desktop-1 ul li {
+    width: 100%;
+}
+
+.widget_postyta_recent.columns-desktop-2 ul li {
+    width: 48%;
+}
+
+.widget_postyta_recent.columns-desktop-3 ul li {
+    width: 31.33%;
+}
+
+.widget_postyta_recent.columns-desktop-4 ul li {
+    width: 23%;
+}
+
+/* Mobile Columns */
+@media (max-width: 768px) {
+    .widget_postyta_recent.columns-mobile-1 ul li {
+        width: 100%;
+    }
+
+    .widget_postyta_recent.columns-mobile-2 ul li {
+        width: 48%;
+    }
+
+    .widget_postyta_recent.columns-mobile-3 ul li {
+        width: 31.33%;
+    }
+
+    .widget_postyta_recent.columns-mobile-4 ul li {
+        width: 23%;
+    }
+}
+
+/* Additional Styles */
+.widget_postyta_recent .post-thumbnail {
+    float: right;
+    margin-left: 10px;
+}
+
+.widget_postyta_recent .post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.widget_postyta_recent .post-title {
+    margin-bottom: 5px;
+}
+
+.widget_postyta_recent .post-meta {
+    margin-top: 5px;
+}
+
+.widget_postyta_recent .post-date-time {
+    font-style: italic;
+}
+
+.widget_postyta_recent .post-categories {
+    margin-bottom: 5px;
+}
+
+.widget_postyta_recent .post-excerpt {
+    margin-bottom: 5px;
+}
+
+/* Style for Style2 */
+.widget_postyta_recent.style2 .post-thumbnail {
+    float: right;
+    margin-left: 10px;
+}
+
+.widget_postyta_recent.style2 .post-title {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.widget_postyta_recent.style2 .post-meta {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.widget_postyta_recent.style2 .post-date-time {
+    font-style: italic;
+}
+
+.widget_postyta_recent.style2 .post-categories {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.widget_postyta_recent.style2 .post-excerpt {
+    margin-bottom: 5px;
+    text-align: left;
+}
